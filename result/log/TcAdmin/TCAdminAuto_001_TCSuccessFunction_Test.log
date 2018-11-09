@@ -1,0 +1,8 @@
+[2018-07-11 13:26:27] [INFO] 当前操作系统是：[Mac OS X]
+[2018-07-11 13:26:27] [INFO] 启动测试浏览器：[chrome]
+[2018-07-11 13:26:31] [INFO] 打开测试页面：[http://alpha.mytongche.com]
+[2018-07-11 13:26:31] [INFO] 返回的code:[200]
+[2018-07-11 13:26:31] [INFO] 返回的message:[ok]
+[2018-07-11 13:26:31] [INFO] 返回的JSON为：{"code":200,"message":"ok","result":{"id":1977,"token":"e3VuaXRJZDonODYyNScsIGxvZ2luTmFtZTonMTc4OTk5OTk5NDcnLCBsYXN0VmFsaWREYXRlOicyMDE4LTA3LTE4IDEzOjI2OjMxJywgaWQ6JzE5NzcnLCBwaG9uZTonMTc4OTk5OTk5NDcnLCB0aXRsZTon5LiK5rW35bu65bel6LCK5bu65p2Q5paZ5bel56iL5pyJ6ZmQ5YWs5Y(4JywgdXNlclBpYzonZGVmYXVsdC9kZWZhdWx0LnBuZycsIHVzZXJSb2xlOic0JywgdXNlck5hbWU6J(iwiuW7uuWwj(mmhicsIHJlZ1RpbWU6JzIwMTgtMDctMDcgMjI6MzE6NDgnLCB2ZXJzaW9uVHlwZToncXliJywgbGFzdE9ubGluZVRpbWU6JzIwMTgtMDctMTEgMTM6MjY6MzEnLCBhcHBJZDondG9uZ2NoZSd9","tel":"17899999947","companyName":"上海建工谊建材料工程有限公司","unitId":8625,"userName":"谊建小馆","userRole":4}}
+[2018-07-11 13:26:31] [INFO] 调用接口返回成功
+[2018-07-11 13:26:31] [INFO] ********************************************************************

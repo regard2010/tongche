@@ -1,0 +1,12 @@
+[2018-03-02 17:27:49] [INFO] 当前操作系统是：[Mac OS X]
+[2018-03-02 17:27:49] [INFO] 启动测试浏览器：[chrome]
+[2018-03-02 17:27:54] [INFO] 打开测试页面：[http://newadmin.ixijian.com]
+[2018-03-02 17:27:55] [INFO] 元素:[By.xpath: //*[@id="head-nav"]/div/div[2]/ul[2]/li/a/span]不存在
+[2018-03-02 17:27:55] [INFO] 开始检查登录页面元素
+[2018-03-02 17:27:55] [INFO] 开始查找元素：[By.name: username]
+[2018-03-02 17:27:55] [INFO] 找到元素:[By.name: username]
+[2018-03-02 17:27:55] [INFO] 开始查找元素：[By.name: password]
+[2018-03-02 17:27:55] [INFO] 找到元素:[By.name: password]
+[2018-03-02 17:27:55] [INFO] 开始查找元素：[By.xpath: //*[@id="fm1"]/div[3]/button]
+[2018-03-02 17:27:55] [INFO] 找到元素:[By.xpath: //*[@id="fm1"]/div[3]/button]
+[2018-03-02 17:27:55] [INFO] 开始查找元素：[By.id: getCode]

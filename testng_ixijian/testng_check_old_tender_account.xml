@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_201800224" preserve-order="true">
+	<!-- driver的属性配置文件保存路径 -->
+	<parameter name="driverConfgFilePath" value="config/driver.properties" />
+	<!-- chrome,firefox,ghost和ie不区分大小写 -->
+	<parameter name="browserName" value="chrome" />
+	<!-- 页面元素10秒不出现超时时间 -->
+	<parameter name="timeOut" value="60" />
+	<!-- 定义测试的站点admin -->
+	<parameter name="testAdminUrl" value="http://192.168.16.225:8080" />
+	<!--parameter name="testAdminUrl" value="http://192.168.16.172:8084" /-->
+	<!-- 定义测试的站点api -->
+	<parameter name="testAPI" value="http://newapi.ixijian.com" />
+	<!-- 定义测试的站点pc -->
+	<parameter name="testPcUrl" value="http://testwww.ixijian.com" />
+	<!-- 定义测试的站点wx -->
+	<parameter name="testWXUrl" value="http://testweixin.ixijian.com" />
+	<!-- 定义测试的站点crm -->
+	<parameter name="testCrmUrl" value="http://192.168.16.246:8080" />
+
+	<!-- 定义测试模块，用test标签包围 -->
+	<test name="TenderFlow_201800224" preserve-order="true" >
+		<classes>
+			<!--class name="com.ixijian.wx.check.OldCheckTenderDataWeiXinThreeMonth_001_TenderSuccessFunction_Test"></class>
+			<class name="com.ixijian.wx.check.OCTD_WeiXinThreeMonThreeAccount_001_TSF_Test"></class>
+			<class name="com.ixijian.wx.check.OCTD_WeiXinOneMonThreeAccount_001_TSF_Test"></class-->
+			<class name="ixijian_test.wx.check.OCTD_WeiXinOneMonThreeAccount_001_TSF_Test"></class>
+		</classes>
+	</test>
+	
+	<listeners>
+		<!-- arrow插件实现用例失败重跑以及生成测试报告 -->
+		<listener class-name="ixijian_main.plugins.arrow.TestResultListener"></listener>
+		<listener class-name="ixijian_main.plugins.arrow.RetryListener"></listener>
+		<listener class-name="ixijian_main.plugins.arrow.PowerEmailableReporter"></listener>
+	</listeners>
+</suite>

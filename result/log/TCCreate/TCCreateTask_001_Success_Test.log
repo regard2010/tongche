@@ -1,0 +1,18 @@
+[2018-05-03 14:04:48] [INFO] 当前操作系统是：[Mac OS X]
+[2018-05-03 14:04:48] [INFO] 启动测试浏览器：[chrome]
+[2018-05-03 14:04:52] [INFO] 打开测试页面：[http://180.168.218.122:8281/admin]
+[2018-05-03 14:04:52] [INFO] 加载MYSQL驱动成功
+[2018-05-03 14:04:55] [INFO] 数据库[查询]操作执行成功，查询结果为:96e79218965eb72c92a549dd5a330112
+[2018-05-03 14:04:56] [INFO] 返回的code:[200]
+[2018-05-03 14:04:56] [INFO] 返回的message:[查询成功]
+[2018-05-03 14:04:56] [INFO] 返回的JSON为：{"code":"200","message":"查询成功","result":{"thirdType":null,"auditer":1,"bindCompanyTime":1524795726000,"tel":"17999999930","userPhoto":"/upload/default/default.png","state":1,"remarks":"","thirdKey":null,"deliverCompanyId":null,"isSetupSalary":0,"password":"96e79218965eb72c92a549dd5a330112","userType":2,"id":1080,"isOnline":1,"deviceType":null,"bindCompanyState":2,"editTime":1524795651000,"userName":"发货中心","fhdwAuditer":null,"deviceId":null,"lastLoginTime":1525327551000,"identityType":null,"regTime":1524795651000,"status":1,"adder":1,"userRole":4,"companyName":"上海浦西发货中心","cheliang":null,"companyCreateId":1080,"bindVehicleState":0,"onlineTime":null,"bindDeliverCompanyTime":null,"jiashiyuan":null,"deliverCompanyName":null,"companyType":null,"versionType":"normal","companyId":8425,"bindDeliverCompanyState":0,"identifier":null},"id":0,"finishQuantity":0,"finishedCarNum":0}
+[2018-05-03 14:04:56] [INFO] 调用[查询成功]接口成功
+[2018-05-03 14:04:56] [INFO] ********************************************************************
+[2018-05-03 14:04:56] [INFO] 返回的code:[200]
+[2018-05-03 14:04:56] [INFO] 返回的message:[成功!]
+[2018-05-03 14:04:56] [INFO] 返回的JSON为：{"code":"200","message":"成功!","result":{"unitId":8425,"loginName":"17999999930","lastValidDate":"2018-05-10 11:14:50","appId":"tongche","id":1080,"phone":"17999999930","title":"上海浦西发货中心","userPic":"/upload/default/default.png","userRole":4,"userName":"发货中心","lastOnlineTime":"2018-05-03 11:14:50","regTime":"2018-04-27 10:20:51","versionType":"normal"},"id":0,"finishQuantity":0,"finishedCarNum":0}
+[2018-05-03 14:04:56] [INFO] 调用[成功!]接口成功
+[2018-05-03 14:04:56] [INFO] ********************************************************************
+[2018-05-03 14:04:56] [INFO] >>>>>>【新建Task】开始<<<<<<
+[2018-05-03 14:04:56] [WARN] createNewTask测试用例执行失败！
+[2018-05-03 14:04:57] [INFO] [2018_05_03_14_04_56_createNewTask]截图成功，保存在：[result/screenshot/2018_05_03_14_04_56_createNewTask.jpg]

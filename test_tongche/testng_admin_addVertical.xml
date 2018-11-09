@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_201800703" preserve-order="true">
+	<!-- driver的属性配置文件保存路径 -->
+	<parameter name="driverConfgFilePath" value="config/driver.properties" />
+	<!-- chrome,firefox,ghost和ie不区分大小写 -->
+	<parameter name="browserName" value="chrome" />
+	<!-- 页面元素10秒不出现超时时间 -->
+	<parameter name="timeOut" value="20" />
+	<!-- 定义测试的站点 -->
+	<parameter name="testAdminUrl" value="https://adminbeta.mytongche.com" />
+
+	<!-- 定义测试模块，用test标签包围 -->
+	<test name="TongChe" preserve-order="true" >
+		<classes>
+			<class name="tongche_test.admin.AddVerticalPage_002_AddVerticalSuccessFunction_Test"></class>
+		</classes>
+	</test>
+	
+	<listeners>
+		<!-- arrow插件实现用例失败重跑以及生成测试报告 -->
+		<listener class-name="ixijian_main.plugins.arrow.TestResultListener"></listener>
+		<listener class-name="ixijian_main.plugins.arrow.RetryListener"></listener>
+		<listener class-name="ixijian_main.plugins.arrow.PowerEmailableReporter"></listener>
+	</listeners>
+</suite>

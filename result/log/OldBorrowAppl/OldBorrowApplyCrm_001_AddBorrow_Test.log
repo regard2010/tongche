@@ -1,0 +1,82 @@
+[2018-04-08 14:54:22] [INFO] 当前操作系统是：[Mac OS X]
+[2018-04-08 14:54:22] [INFO] 启动测试浏览器：[chrome]
+[2018-04-08 14:54:26] [INFO] 打开测试页面：[http://192.168.16.246:8080]
+[2018-04-08 14:54:27] [INFO] 开始检查登录页面元素
+[2018-04-08 14:54:27] [INFO] 开始查找元素：[By.name: username]
+[2018-04-08 14:54:27] [INFO] 找到元素:[By.name: username]
+[2018-04-08 14:54:27] [INFO] 开始查找元素：[By.name: password]
+[2018-04-08 14:54:28] [INFO] 找到元素:[By.name: password]
+[2018-04-08 14:54:28] [INFO] 开始查找元素：[By.xpath: //*[@id="fm1"]/div[3]/button]
+[2018-04-08 14:54:28] [INFO] 找到元素:[By.xpath: //*[@id="fm1"]/div[3]/button]
+[2018-04-08 14:54:28] [INFO] 检查登录页面元素完毕
+[2018-04-08 14:54:28] [INFO] 开始输入登录信息
+[2018-04-08 14:54:28] [INFO] 输入：[liuweiyi] 到 [By.id: username]
+[2018-04-08 14:54:28] [INFO] 输入：[1qaz2wsx] 到 [By.id: password]
+[2018-04-08 14:54:29] [INFO] 输入登录信息完毕
+[2018-04-08 14:54:32] [INFO] 点击元素 [By.xpath: //*[@id="fm1"]/div[3]/button]
+[2018-04-08 14:54:33] [INFO] 加载MYSQL驱动成功
+[2018-04-08 14:54:36] [INFO] 数据库[查询]操作执行成功，查询结果为:1739
+[2018-04-08 14:54:37] [INFO] 打开测试页面：[http://192.168.16.246:8080/apply/firstVerify/firstVerify.htm?applyId=1739&verifyStatus=10&verifyRemark=&isShow=N]
+[2018-04-08 14:54:38] [INFO] 文本 [{"success":true,"message":"初审完成"}] 包含于 [初审完成]
+[2018-04-08 14:54:39] [INFO] 打开测试页面：[http://192.168.16.246:8080/apply/firstVerify/secondVerify.htm?applyId=1739&verifyStatus=20&valuation=&verifyRemark=]
+[2018-04-08 14:54:40] [INFO] 文本 [{"success":true,"message":"复审完成"}] 包含于 [复审完成]
+[2018-04-08 14:54:40] [INFO] 打开测试页面：[http://192.168.16.246:8080/apply/firstVerify/phoneVerify.htm?applyId=1739&verifyStatus=30&needInfo=1&verifyRemark=]
+[2018-04-08 14:54:41] [INFO] 文本 [{"success":true,"message":"电话预约完成"}] 包含于 [电话预约完成]
+[2018-04-08 14:54:41] [INFO] 加载MYSQL驱动成功
+[2018-04-08 14:54:43] [INFO] 数据库[查询]操作执行成功，查询结果为:emxCu4puCYfKcJaR7FRd7A==
+[2018-04-08 14:54:44] [INFO] 加载MYSQL驱动成功
+[2018-04-08 14:54:46] [INFO] 数据库[查询]操作执行成功，查询结果为:10000223
+[2018-04-08 14:54:47] [INFO] 打开测试页面：[http://192.168.16.246:8080/borrowApply/add.htm?applyId=1739&userId=10000223&borrowType=personage&borrowAmount=200000&borrowStyle=end&borrowPeriod=3&borrowUseId=3]
+[2018-04-08 14:54:49] [INFO] 文本 [{"success":true,"message":"增加借款请求成功"}] 包含于 [增加借款请求成功]
+[2018-04-08 14:54:49] [INFO] 加载MYSQL驱动成功
+[2018-04-08 14:54:51] [INFO] 数据库[查询]操作执行成功，查询结果为:13817504921
+[2018-04-08 14:54:52] [INFO] 打开测试页面：[http://192.168.16.246:8080/userInfo/editUserInfo.htm?userId=10000223&applyId=1739&realname=刘超&phone=13817504921&cardId=120106198204074552&infoProvinceId=1&infoCityId=2&nowAddress=%E4%B8%8A%E6%B5%B7&sex=1&marry=1&birthday=2016-07-05&localLateNum=8&otherBorrowNum=10&liabilitiesInfo=Y&useOfFunds=资金运用的还行&financialSituation=财务状况还过得去&repaymentAbility=还款能力非常强壮&involvedInAppeal=从未设计过诉讼&majorPenalties=有重大处罚我还敢借钱给你吗&children=1&edu=0&income=0&companyName=&companyType=0&industry=&office=&workYear=0&companyTel=&address=&tel=&provinceId=40&cityId=41&postId=&name=%E5%88%98%E5%88%98&comtactPhone=13916072538&relation=0&idcardId1=11427&idcardId2=11428&idcardId3=11429&workId=&incomeId=&creditId=&houseId=&otherId=]
+[2018-04-08 14:54:53] [INFO] 打开测试页面：[http://192.168.16.246:8080/apply/firstVerify/expertVerify.htm?applyId=1739&verifyStatus=40&valuation=10000000&verifyGist=abc&expertId=25&verifyRemark=efg]
+[2018-04-08 14:54:54] [INFO] 文本 [{"success":true,"message":"专家复审完成"}] 包含于 [专家复审完成]
+[2018-04-08 14:54:54] [INFO] 加载MYSQL驱动成功
+[2018-04-08 14:54:56] [INFO] 数据库[查询]操作执行成功，查询结果为:1726
+[2018-04-08 14:54:58] [INFO] 打开测试页面：[http://192.168.16.246:8080/apply/firstVerify/storage.htm?goodsId=1726&applyId=1739&verifyStatus=70&delivery=abc&custodian=efg&shelfNumber=123&storageAddress=拍卖行保管verifyRemark=]
+[2018-04-08 14:55:00] [INFO] 打开测试页面：[http://192.168.16.246:8080/apply/firstVerify/borrowVerify.htm?applyId=1739&verifyStatus=50&approveAmount=200000&approveStyle=end&approvePeriod=3&approveApr=24&tenderApr=9.8&credit=0.01&insurance=0.02&appraisalFee=0.03&assurance=0.04&pledgeAndCustodyFee=0.05&postLoanManagementFee=0.06&afterLoanServiceCharge=0.07&impawnRate=50&verifyRemark=]
+[2018-04-08 14:55:01] [INFO] 文本 [{"success":true,"message":"借款审核完成"}] 包含于 [借款审核完成]
+[2018-04-08 14:55:01] [INFO] 加载MYSQL驱动成功
+[2018-04-08 14:55:03] [INFO] 数据库[查询]操作执行成功，查询结果为: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
+[2018-04-08 14:55:04] [INFO] 加载MYSQL驱动成功
+[2018-04-08 14:55:06] [INFO] 数据库[查询]操作执行成功，查询结果为:13817504921
+[2018-04-08 14:55:08] [INFO] 打开测试页面：[http://testweixin.ixijian.com/user/sendLoginCode.htm?loginName=13817504921]
+[2018-04-08 14:55:13] [INFO] 加载MYSQL驱动成功
+[2018-04-08 14:55:15] [INFO] 数据库[查询]操作执行成功，查询结果为:您的手机验证码为 699175（5分钟内有效），您正在登录玺鉴科技金融，若非本人操作，请及时致电400-626-8880
+[2018-04-08 14:55:17] [INFO] 验证码是：[699175]
+[2018-04-08 14:55:17] [INFO] 打开测试页面：[http://testweixin.ixijian.com/user/doLogin.htm?loginName=13817504921&loginPassword=MTIzNDU2QWI=&captcha=&loginCode=699175]
+[2018-04-08 14:55:18] [INFO] 文本 [{"success":true,"code":"0","message":"登录成功","model":null,"mark":null,"traceLog":null}] 包含于 [登录成功]
+[2018-04-08 14:55:19] [INFO] 打开测试页面：[http://testweixin.ixijian.com/appraisal/sign.htm?id=1739&sign=iVBORw0KGgoAAAANSUhEUgAAAP8AAAD/CAMAAAAJ1vD4AAADAFBMVEX/////AAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABLakbNAAAAAXRSTlMAQObYZgAABKNJREFUeNrtndmW4yoMRSOK///lc1cPt4bEAyAJ7M7eD/WS2NGRBBKYpB4PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4Cmbvrb880I9+9KMf/eh/P+qvP3rT3of4ox/96Ec/+tGP/vx2Y83Fkfodhrj2mpI2qkq3FctEpHigjqSiPHnsujh8qVLmj+SFV7v1y+EAXdEDZUyE0wjX1Yp0WrmNBJf8XXvLeBbfSv6evWVBEi+Rv2NvcVhwk0dndmRvdd1ZF1I3Zm+Zm77xOK2pj7sj+3SEbTrFjnx1W/1fjbRae2oFzf+6hPxv0XYYlLb+zz1YYVH1p+QptjwXWFgBdunXWY+Z5AE7KX4d42Fo/vs75b7Osq8FdnC9b40v9HQgysz//YwcGgZyOyo//9WYkUPT84gDRnwxVv+fS64dZORgcfozxl5Wm9G1t/pj/+T4JwcoIr3yrqzxo2vVqshGNJSEGNzpSGntr3QbYi+1JFTk+FdTNtsFPDCWdcXpTZvS7ufNm2Wx/1dTHv+IA04bBGXrv+UpwhoVc80PuFrCb4v2Pybku+3Kt1nxXxZ+O+40mx1QgtJ/zWxnO9mv5gC16L/ed6Seltuvg795zV1i4qw18g+MUNsytLZ92tQG1zpes6/HHtpeu7jjr12jLCf86nOW7V2lhlvWJnsmp4A22oqzAq+D+8hb/7RZbizXAeoZLBrMp9oTkb0UiE+M3u1P7ZutkPqv7JB7psr9aqffL1lA//N68Mvywt+q3poalKMzq6U7Je1iwf8d/bOSaQH9r7TZe+aF3zqsOutRQ87/xRx+7M/v85gcKDx+Vty3/tHG4lPLPKCf8972e0+eFXeuf//vKOY94+hpu06mwYjzL5o/+Yedowg5/6cV87+NH3A62aHznP+cV/sVsC8Rtv87v93RXjqb22rn+Tctk28xR8CKz6DVG4Brzr84z5yETuVOA9z73za5/V37/acNE1bvDtts/ZYckqkOCHn+k9sNpzYcZdzdukwGzNT/Tf6/4ICo88/2Jvp/Zv/9HVB8g//2DijuzL+3A8pQ+LXpiFgHZJ14dujfMil9BWiX0W9rTE11QB2w46khSx/3ze2lZY//zYw/qAGSLp4BxTX4Txyl6w+BGiB/cwQoSLI69rkGqnJJi37O8m9R/tthRuuxzDtz9NsyeUr+1BIiP95Ei7377lRcYqKvJDcopJAcXF+bI7F0bH+VGOv8gsOJ3TVIvmLPB76knL4/x1eHTPnqf/vMp54hPTISfjzzUNAEVBMnftsxf7D0/2izvh+Q9GRezZPvCL6dpsDnu5wFsp6b4foGszmKpU498Og+iPKcKzVP/nje26FPLHJ6qSdW+FP/2QOO8J+5YOCmdcyGweIdte6R9ycoP/mwgH2XnoSWK/19Ob9xfv9jzq511yzVO/BsMPoT9ffMpZ55x3qS3x6Tf/9MCe9suM48/f989eEbykcf/HHFp1aTThdf9v+/TFxq8/v/6Ec/+tGPfvSjH/3oRz/60Y/+d8CM+KMf/ehHP/rRDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsIr/AAK+HpY6p/BZAAAAAElFTkSuQmCC]
+[2018-04-08 14:55:20] [INFO] 文本 [{"success":true,"message":"签名成功"}] 包含于 [签名成功]
+[2018-04-08 14:55:20] [INFO] 加载MYSQL驱动成功
+[2018-04-08 14:55:21] [INFO] 数据库[更新]操作执行成功，更新了:[1]条记录
+[2018-04-08 14:55:22] [INFO] 打开测试页面：[http://192.168.16.246:8080/apply/firstVerify/riskVerify.htm?applyId=1739&verifyStatus=60&riskRating=8&verifyRemark=]
+[2018-04-08 14:55:23] [INFO] 文本 [{"success":true,"message":"风控审核完成"}] 包含于 [风控审核完成]
+[2018-04-08 14:55:24] [INFO] 打开测试页面：[http://192.168.16.246:8080/apply/firstVerify/publish.htm?applyId=1739&taskId=&borrowCode=201804081455&borrowName=玺艺贷&borrowStyle=end&interestType=immediately&borrowPeriod=3&borrowAprInterest=24&borrowApr=9.8&borrowAmount=200000&zijinliuxiang=zijinliuxiang&showPlay=1&showPlay=2&showPlay=3&allowUsePacket=Y&allowUseInterest=Y&renewFlag=Y&isAuction=Y&isRepurchase=Y&borrowDays=31&borrowType=youchi&borrowFlag=4&tenderMinAmount=100&tenderMaxAmount=0&riskLevel=8&insuranceNo=&description=description&ah=duo_yun_xuan&agree=2&promotionPartners=%E6%97%A0%E5%90%88%E4%BD%9C%E6%96%B9]
+[2018-04-08 14:55:25] [INFO] 文本 [{"success":true,"message":"发标成功"}] 包含于 [发标成功]
+[2018-04-08 14:55:25] [INFO] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>CRM审核完成<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2018-04-08 14:55:26] [INFO] 打开测试页面：[http://192.168.16.225:8080/login.jsp]
+[2018-04-08 14:55:27] [INFO] 元素:[By.xpath: //*[@id="head-nav"]/div/div[2]/ul[2]/li/a/span]不存在
+[2018-04-08 14:55:27] [INFO] 开始检查登录页面元素
+[2018-04-08 14:55:27] [INFO] 开始查找元素：[By.name: username]
+[2018-04-08 14:55:27] [INFO] 找到元素:[By.name: username]
+[2018-04-08 14:55:27] [INFO] 开始查找元素：[By.name: password]
+[2018-04-08 14:55:27] [INFO] 找到元素:[By.name: password]
+[2018-04-08 14:55:27] [INFO] 开始查找元素：[By.xpath: //*[@id="fm1"]/div[3]/button]
+[2018-04-08 14:55:27] [INFO] 找到元素:[By.xpath: //*[@id="fm1"]/div[3]/button]
+[2018-04-08 14:55:27] [INFO] 检查登录页面元素完毕
+[2018-04-08 14:55:27] [INFO] 元素:[By.xpath: //*[@id="head-nav"]/div/div[2]/ul[2]/li/a/span]不存在
+[2018-04-08 14:55:27] [INFO] 开始输入登录信息
+[2018-04-08 14:55:27] [INFO] 清除元素 [By.name: username]上的内容
+[2018-04-08 14:55:27] [INFO] 输入：[liuweiyi] 到 [By.name: username]
+[2018-04-08 14:55:27] [INFO] 清除元素 [By.name: password]上的内容
+[2018-04-08 14:55:27] [INFO] 输入：[1qaz2wsx] 到 [By.name: password]
+[2018-04-08 14:55:27] [INFO] 输入登录信息完毕
+[2018-04-08 14:55:33] [INFO] 点击元素 [By.xpath: //*[@id="fm1"]/div[3]/button]
+[2018-04-08 14:55:35] [INFO] 加载MYSQL驱动成功
+[2018-04-08 14:55:37] [INFO] 数据库[查询]操作执行成功，查询结果为:2306
+[2018-04-08 14:55:38] [INFO] 打开测试页面：[http://192.168.16.225:8080/borrow/verify/firstVerify.htm?borrowId=2306&verifyStatus=1&remark=ddd&contents=fff]
+[2018-04-08 14:55:39] [INFO] 打开测试页面：[http://192.168.16.225:8080/borrow/verify/immediatelyOnline.htm?borrowId=2306]
+[2018-04-08 14:55:39] [INFO] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ADMIN上标完成<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

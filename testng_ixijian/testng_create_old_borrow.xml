@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_20180105" preserve-order="true">
+	<!-- driver的属性配置文件保存路径 -->
+	<parameter name="driverConfgFilePath" value="config/driver.properties" />
+	<!-- chrome,firefox,ghost和ie不区分大小写 -->
+	<parameter name="browserName" value="chrome" />
+	<!-- 页面元素10秒不出现超时时间 -->
+	<parameter name="timeOut" value="60" />
+	<!-- 定义测试的站点admin -->
+	<parameter name="testAdminUrl" value="http://192.168.16.225:8080" />
+	<!--parameter name="testAdminUrl" value="http://192.168.16.172:8084" /-->
+	<!-- 定义测试的站点api -->
+	<parameter name="testAPI" value="http://newapi.ixijian.com" />
+	<!-- 定义测试的站点pc -->
+	<parameter name="testPcUrl" value="http://testwww.ixijian.com" />
+	<!-- 定义测试的站点wx -->
+	<parameter name="testWXUrl" value="http://testweixin.ixijian.com" />
+	<!-- 定义测试的站点crm -->
+	<parameter name="testCrmUrl" value="http://192.168.16.246:8080" />
+
+	<!-- 定义测试模块，用test标签包围 -->
+	<test name="Tender_20171231" preserve-order="true" >
+		<classes>
+			<class name="ixijian_test.test.OldBorrowApplyCrm_001_AddBorrow_Test">
+				<!-- 投资利率 -->
+				<parameter name="tenderApr" value="9.8"></parameter>
+				<!-- 投资月份 -->
+				<parameter name="borrowPeriod" value="3"></parameter>
+				<!-- 借款金额 -->
+				<parameter name="jieqianjine" value="200000"></parameter>
+				<!-- 个人标的:13817504921 企业标的:17701748136 -->
+				<parameter name="phone" value="13817504921"></parameter>
+				<!-- 预估金额 -->
+				<parameter name="valuation" value="10000000"></parameter>
+				<!-- 企业标的:enterprise  个人标的:personage -->
+				<parameter name="borrowType" value="personage"></parameter>
+				<!-- 征信调查费:元 -->
+				<parameter name="credit" value="0.01"></parameter>
+				<!-- 保险费% -->
+				<parameter name="insurance" value="0.02"></parameter>
+				<!-- 鉴定评估费:元 -->
+				<parameter name="appraisalFee" value="0.03"></parameter>
+				<!-- 鉴定备案费:元 -->
+				<parameter name="assurance" value="0.04"></parameter>
+				<!-- 质押保管费:元/月 -->
+				<parameter name="pledgeAndCustodyFee" value="0.05"></parameter>
+				<!-- 贷后管理费% -->
+				<parameter name="postLoanManagementFee" value="0.06"></parameter>
+				<!-- 贷后服务费% -->
+				<parameter name="afterLoanServiceCharge" value="0.07"></parameter>
+			</class>
+		</classes>
+	</test>
+	
+	<listeners>
+		<!-- arrow插件实现用例失败重跑以及生成测试报告 -->
+		<listener class-name="ixijian_main.plugins.arrow.TestResultListener"></listener>
+		<listener class-name="ixijian_main.plugins.arrow.RetryListener"></listener>
+		<listener class-name="ixijian_main.plugins.arrow.PowerEmailableReporter"></listener>
+	</listeners>
+</suite>

@@ -1,0 +1,55 @@
+[2018-03-20 14:33:46] [INFO] 当前操作系统是：[Mac OS X]
+[2018-03-20 14:33:46] [INFO] 启动测试浏览器：[chrome]
+[2018-03-20 14:33:50] [INFO] 打开测试页面：[http://192.168.16.205:8080]
+[2018-03-20 14:33:51] [INFO] 元素:[By.xpath: //*[@id="head-nav"]/div/div[2]/ul[2]/li/a/span]不存在
+[2018-03-20 14:33:51] [INFO] 开始检查登录页面元素
+[2018-03-20 14:33:51] [INFO] 开始查找元素：[By.name: username]
+[2018-03-20 14:33:51] [INFO] 找到元素:[By.name: username]
+[2018-03-20 14:33:51] [INFO] 开始查找元素：[By.name: password]
+[2018-03-20 14:33:51] [INFO] 找到元素:[By.name: password]
+[2018-03-20 14:33:51] [INFO] 开始查找元素：[By.xpath: //*[@id="fm1"]/div[3]/button]
+[2018-03-20 14:33:51] [INFO] 找到元素:[By.xpath: //*[@id="fm1"]/div[3]/button]
+[2018-03-20 14:33:51] [INFO] 检查登录页面元素完毕
+[2018-03-20 14:33:51] [INFO] 元素:[By.xpath: //*[@id="head-nav"]/div/div[2]/ul[2]/li/a/span]不存在
+[2018-03-20 14:33:51] [INFO] 开始输入登录信息
+[2018-03-20 14:33:51] [INFO] 清除元素 [By.name: username]上的内容
+[2018-03-20 14:33:52] [INFO] 输入：[admin] 到 [By.name: username]
+[2018-03-20 14:33:52] [INFO] 清除元素 [By.name: password]上的内容
+[2018-03-20 14:33:52] [INFO] 输入：[1234ad] 到 [By.name: password]
+[2018-03-20 14:33:52] [INFO] 输入登录信息完毕
+[2018-03-20 14:33:54] [INFO] 点击元素 [By.xpath: //*[@id="fm1"]/div[3]/button]
+[2018-03-20 14:33:56] [INFO] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>开始【添加专场】<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2018-03-20 14:33:56] [INFO] 打开测试页面：[http://192.168.16.205:8080/auction/add.htm?companyId=8&title=测试专场201803200233&beginTime=2018-03-20 15:00:00&endTime=2018-03-21 16:00:00&margin=5000&bidLadders=%5B%7Bup%3A0%2C+down%3A+1000%2C+val%3A100%7D%2C%7Bup%3A1000%2C+down%3A+5000%2C+val%3A200%7D%2C%7Bup%3A5000%2C+down%3A+10000%2C+val%3A500%7D%2C%7Bup%3A10000%2C+down%3A+50000%2C+val%3A1000%7D%2C%7Bup%3A50000%2C+down%3A+100000%2C+val%3A2000%7D%2C%7Bup%3A100000%2C+down%3A+200000%2C+val%3A5000%7D%2C%7Bup%3A200000%2C+down%3A+10000000%2C+val%3A10000%7D%5D&cover=1535%3B&infopic=&infoId=127&subtitle=%E5%90%84%E7%A7%8D%E4%B8%93%E5%9C%BA%E6%8F%8F%E8%BF%B0]
+[2018-03-20 14:33:57] [INFO] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>【添加专场】完成<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2018-03-20 14:33:58] [INFO] 加载MYSQL驱动成功
+[2018-03-20 14:34:01] [INFO] 数据库[查询]操作执行成功，查询结果为:333
+[2018-03-20 14:34:02] [INFO] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>开始【添加单品】<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2018-03-20 14:34:02] [INFO] 打开测试页面：[http://192.168.16.205:8080/item/add.htm?auctionId=333&itemCode=20180320023301&title=01%E7%B2%89%E5%BD%A9%E5%9B%9B%E5%A6%83%E5%8D%81%E5%85%AD%E5%AD%90%E7%BC%A0%E6%9E%9D%E8%8E%B2%E8%B5%8F%E7%93%B6&subtitle=01%E7%B2%89%E5%BD%A9%E5%9B%9B%E5%A6%83%E5%8D%81%E5%85%AD%E5%AD%90%E7%BC%A0%E6%9E%9D%E8%8E%B2%E8%B5%8F%E7%93%B6&quantity=1&sequence=1&startingPrice=1000&reservePrice=1000&evaluatePrice=1千-2千&fixedPrice=&premiumRate=0&commissionRate=0&premiumPrice=300&commissionPrice=500&upsetPrice=1000&orderDeadline=7&margin=100&artistId=36&coverId=1537&imgStr=1539%3B1540%3B&exsprops=%5B%5D&artworkId=&props=%5B%7Bprop%3A'%E4%BD%9C%E8%80%85'%2C+val%3A'%E5%BC%A0%E5%A4%A7%E5%8D%83'%7D%2C%7Bprop%3A'%E6%9D%90%E8%B4%A8'%2C+val%3A'%E7%93%B7%E5%99%A8'%7D%2C%7Bprop%3A'%E5%B0%BA%E5%AF%B8'%2C+val%3A'20*40*80'%7D%2C%7Bprop%3A'%E5%B9%B4%E4%BB%A3'%2C+val%3A'%E6%B8%85'%7D%5D]
+[2018-03-20 14:34:03] [INFO] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>添加单品:[1]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2018-03-20 14:34:03] [INFO] 加载MYSQL驱动成功
+[2018-03-20 14:34:06] [INFO] 数据库[查询]操作执行成功，查询结果为:1206
+[2018-03-20 14:34:07] [INFO] 打开测试页面：[http://192.168.16.205:8080/item/verify.htm?auctionId=333&itemId=1206&status=2&reasons=]
+[2018-03-20 14:34:08] [INFO] 打开测试页面：[http://192.168.16.205:8080/item/add.htm?auctionId=333&itemCode=20180320023302&title=02%E7%B2%89%E5%BD%A9%E5%9B%9B%E5%A6%83%E5%8D%81%E5%85%AD%E5%AD%90%E7%BC%A0%E6%9E%9D%E8%8E%B2%E8%B5%8F%E7%93%B6&subtitle=02%E7%B2%89%E5%BD%A9%E5%9B%9B%E5%A6%83%E5%8D%81%E5%85%AD%E5%AD%90%E7%BC%A0%E6%9E%9D%E8%8E%B2%E8%B5%8F%E7%93%B6&quantity=1&sequence=1&startingPrice=1000&reservePrice=1000&evaluatePrice=1千-2千&fixedPrice=&premiumRate=0&commissionRate=0&premiumPrice=300&commissionPrice=500&upsetPrice=1000&orderDeadline=7&margin=100&artistId=36&coverId=1537&imgStr=1539%3B1540%3B&exsprops=%5B%5D&artworkId=&props=%5B%7Bprop%3A'%E4%BD%9C%E8%80%85'%2C+val%3A'%E5%BC%A0%E5%A4%A7%E5%8D%83'%7D%2C%7Bprop%3A'%E6%9D%90%E8%B4%A8'%2C+val%3A'%E7%93%B7%E5%99%A8'%7D%2C%7Bprop%3A'%E5%B0%BA%E5%AF%B8'%2C+val%3A'20*40*80'%7D%2C%7Bprop%3A'%E5%B9%B4%E4%BB%A3'%2C+val%3A'%E6%B8%85'%7D%5D]
+[2018-03-20 14:34:09] [INFO] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>添加单品:[2]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2018-03-20 14:34:09] [INFO] 加载MYSQL驱动成功
+[2018-03-20 14:34:12] [INFO] 数据库[查询]操作执行成功，查询结果为:1207
+[2018-03-20 14:34:13] [INFO] 打开测试页面：[http://192.168.16.205:8080/item/verify.htm?auctionId=333&itemId=1207&status=2&reasons=]
+[2018-03-20 14:34:14] [INFO] 打开测试页面：[http://192.168.16.205:8080/item/add.htm?auctionId=333&itemCode=20180320023303&title=03%E7%B2%89%E5%BD%A9%E5%9B%9B%E5%A6%83%E5%8D%81%E5%85%AD%E5%AD%90%E7%BC%A0%E6%9E%9D%E8%8E%B2%E8%B5%8F%E7%93%B6&subtitle=03%E7%B2%89%E5%BD%A9%E5%9B%9B%E5%A6%83%E5%8D%81%E5%85%AD%E5%AD%90%E7%BC%A0%E6%9E%9D%E8%8E%B2%E8%B5%8F%E7%93%B6&quantity=1&sequence=1&startingPrice=1000&reservePrice=1000&evaluatePrice=1千-2千&fixedPrice=&premiumRate=0&commissionRate=0&premiumPrice=300&commissionPrice=500&upsetPrice=1000&orderDeadline=7&margin=100&artistId=36&coverId=1537&imgStr=1539%3B1540%3B&exsprops=%5B%5D&artworkId=&props=%5B%7Bprop%3A'%E4%BD%9C%E8%80%85'%2C+val%3A'%E5%BC%A0%E5%A4%A7%E5%8D%83'%7D%2C%7Bprop%3A'%E6%9D%90%E8%B4%A8'%2C+val%3A'%E7%93%B7%E5%99%A8'%7D%2C%7Bprop%3A'%E5%B0%BA%E5%AF%B8'%2C+val%3A'20*40*80'%7D%2C%7Bprop%3A'%E5%B9%B4%E4%BB%A3'%2C+val%3A'%E6%B8%85'%7D%5D]
+[2018-03-20 14:34:15] [INFO] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>添加单品:[3]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2018-03-20 14:34:15] [INFO] 加载MYSQL驱动成功
+[2018-03-20 14:34:17] [INFO] 数据库[查询]操作执行成功，查询结果为:1208
+[2018-03-20 14:34:18] [INFO] 打开测试页面：[http://192.168.16.205:8080/item/verify.htm?auctionId=333&itemId=1208&status=2&reasons=]
+[2018-03-20 14:34:19] [INFO] 打开测试页面：[http://192.168.16.205:8080/item/add.htm?auctionId=333&itemCode=20180320023304&title=04%E7%B2%89%E5%BD%A9%E5%9B%9B%E5%A6%83%E5%8D%81%E5%85%AD%E5%AD%90%E7%BC%A0%E6%9E%9D%E8%8E%B2%E8%B5%8F%E7%93%B6&subtitle=04%E7%B2%89%E5%BD%A9%E5%9B%9B%E5%A6%83%E5%8D%81%E5%85%AD%E5%AD%90%E7%BC%A0%E6%9E%9D%E8%8E%B2%E8%B5%8F%E7%93%B6&quantity=1&sequence=1&startingPrice=1000&reservePrice=1000&evaluatePrice=1千-2千&fixedPrice=&premiumRate=0&commissionRate=0&premiumPrice=300&commissionPrice=500&upsetPrice=1000&orderDeadline=7&margin=100&artistId=36&coverId=1537&imgStr=1539%3B1540%3B&exsprops=%5B%5D&artworkId=&props=%5B%7Bprop%3A'%E4%BD%9C%E8%80%85'%2C+val%3A'%E5%BC%A0%E5%A4%A7%E5%8D%83'%7D%2C%7Bprop%3A'%E6%9D%90%E8%B4%A8'%2C+val%3A'%E7%93%B7%E5%99%A8'%7D%2C%7Bprop%3A'%E5%B0%BA%E5%AF%B8'%2C+val%3A'20*40*80'%7D%2C%7Bprop%3A'%E5%B9%B4%E4%BB%A3'%2C+val%3A'%E6%B8%85'%7D%5D]
+[2018-03-20 14:34:20] [INFO] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>添加单品:[4]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2018-03-20 14:34:20] [INFO] 加载MYSQL驱动成功
+[2018-03-20 14:34:22] [INFO] 数据库[查询]操作执行成功，查询结果为:1209
+[2018-03-20 14:34:24] [INFO] 打开测试页面：[http://192.168.16.205:8080/item/verify.htm?auctionId=333&itemId=1209&status=2&reasons=]
+[2018-03-20 14:34:25] [INFO] 打开测试页面：[http://192.168.16.205:8080/item/add.htm?auctionId=333&itemCode=20180320023305&title=05%E7%B2%89%E5%BD%A9%E5%9B%9B%E5%A6%83%E5%8D%81%E5%85%AD%E5%AD%90%E7%BC%A0%E6%9E%9D%E8%8E%B2%E8%B5%8F%E7%93%B6&subtitle=05%E7%B2%89%E5%BD%A9%E5%9B%9B%E5%A6%83%E5%8D%81%E5%85%AD%E5%AD%90%E7%BC%A0%E6%9E%9D%E8%8E%B2%E8%B5%8F%E7%93%B6&quantity=1&sequence=1&startingPrice=1000&reservePrice=1000&evaluatePrice=1千-2千&fixedPrice=&premiumRate=0&commissionRate=0&premiumPrice=300&commissionPrice=500&upsetPrice=1000&orderDeadline=7&margin=100&artistId=36&coverId=1537&imgStr=1539%3B1540%3B&exsprops=%5B%5D&artworkId=&props=%5B%7Bprop%3A'%E4%BD%9C%E8%80%85'%2C+val%3A'%E5%BC%A0%E5%A4%A7%E5%8D%83'%7D%2C%7Bprop%3A'%E6%9D%90%E8%B4%A8'%2C+val%3A'%E7%93%B7%E5%99%A8'%7D%2C%7Bprop%3A'%E5%B0%BA%E5%AF%B8'%2C+val%3A'20*40*80'%7D%2C%7Bprop%3A'%E5%B9%B4%E4%BB%A3'%2C+val%3A'%E6%B8%85'%7D%5D]
+[2018-03-20 14:34:26] [INFO] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>添加单品:[5]<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2018-03-20 14:34:26] [INFO] 加载MYSQL驱动成功
+[2018-03-20 14:34:28] [INFO] 数据库[查询]操作执行成功，查询结果为:1210
+[2018-03-20 14:34:29] [INFO] 打开测试页面：[http://192.168.16.205:8080/item/verify.htm?auctionId=333&itemId=1210&status=2&reasons=]
+[2018-03-20 14:34:30] [INFO] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>【添加并审核单品】完成<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2018-03-20 14:34:30] [INFO] 打开测试页面：[http://192.168.16.205:8080/auction/verify.htm?auctionId=333&status=2&reasons=]
+[2018-03-20 14:34:30] [INFO] 文本 [{"success":true,"message":"提交数据成功"}] 包含于 [提交数据成功]
+[2018-03-20 14:34:31] [INFO] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>【专场审核】完成并上线<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

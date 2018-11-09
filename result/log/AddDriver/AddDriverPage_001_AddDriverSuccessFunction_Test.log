@@ -1,0 +1,288 @@
+[2018-07-12 10:44:55] [INFO] 当前操作系统是：[Mac OS X]
+[2018-07-12 10:44:55] [INFO] 启动测试浏览器：[chrome]
+[2018-07-12 10:45:02] [INFO] 打开测试页面：[http://tcweb.mytongche.com]
+[2018-07-12 10:45:03] [INFO] 开始检查登录页面元素
+[2018-07-12 10:45:03] [INFO] 开始查找元素：[By.id: mobile]
+[2018-07-12 10:45:03] [INFO] 找到元素:[By.id: mobile]
+[2018-07-12 10:45:03] [INFO] 开始查找元素：[By.id: secret]
+[2018-07-12 10:45:03] [INFO] 找到元素:[By.id: secret]
+[2018-07-12 10:45:03] [INFO] 开始查找元素：[By.xpath: //*[@id="app"]/div/div/div/button]
+[2018-07-12 10:45:03] [INFO] 找到元素:[By.xpath: //*[@id="app"]/div/div/div/button]
+[2018-07-12 10:45:03] [INFO] 检查登录页面元素完毕
+[2018-07-12 10:45:03] [INFO] 开始输入登录信息
+[2018-07-12 10:45:03] [INFO] 清除元素 [By.id: mobile]上的内容
+[2018-07-12 10:45:03] [INFO] 输入：[17899999947] 到 [By.id: mobile]
+[2018-07-12 10:45:03] [INFO] 清除元素 [By.id: secret]上的内容
+[2018-07-12 10:45:03] [INFO] 输入：[157935] 到 [By.id: secret]
+[2018-07-12 10:45:03] [INFO] 输入登录信息完毕
+[2018-07-12 10:45:03] [INFO] 点击元素 [By.xpath: //*[@id="app"]/div/div/div/button]
+[2018-07-12 10:45:05] [INFO] 打开测试页面：[http://tcweb.mytongche.com/#/shipDriver]
+[2018-07-12 10:45:06] [INFO] 点击元素 [By.xpath: //*[@id="main"]/div[1]/div[1]/button]
+[2018-07-12 10:45:06] [INFO] 开始检查驾驶员页面元素
+[2018-07-12 10:45:07] [INFO] 开始查找元素：[By.id: userName]
+[2018-07-12 10:45:07] [INFO] 找到元素:[By.id: userName]
+[2018-07-12 10:45:07] [INFO] 开始查找元素：[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:07] [INFO] 找到元素:[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:07] [INFO] 开始查找元素：[By.id: addDriver]
+[2018-07-12 10:45:07] [INFO] 找到元素:[By.id: addDriver]
+[2018-07-12 10:45:07] [INFO] 检查登录驾驶员元素完毕
+[2018-07-12 10:45:07] [INFO] 开始输入驾驶员信息
+[2018-07-12 10:45:07] [INFO] 清除元素 [By.id: userName]上的内容
+[2018-07-12 10:45:07] [INFO] 输入：[26谊建] 到 [By.id: userName]
+[2018-07-12 10:45:07] [INFO] 清除元素 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]上的内容
+[2018-07-12 10:45:07] [INFO] 输入：[17899999975] 到 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:07] [INFO] 输入驾驶员信息完毕
+[2018-07-12 10:45:08] [INFO] 点击元素 [By.id: addDriver]
+[2018-07-12 10:45:09] [INFO] 点击元素 [By.xpath: //*[@id="driver1"]/div/div/div[1]/button]
+[2018-07-12 10:45:10] [INFO] 打开测试页面：[http://tcweb.mytongche.com/#/shipDriver]
+[2018-07-12 10:45:11] [INFO] 点击元素 [By.xpath: //*[@id="main"]/div[1]/div[1]/button]
+[2018-07-12 10:45:11] [INFO] 开始检查驾驶员页面元素
+[2018-07-12 10:45:12] [INFO] 开始查找元素：[By.id: userName]
+[2018-07-12 10:45:12] [INFO] 找到元素:[By.id: userName]
+[2018-07-12 10:45:12] [INFO] 开始查找元素：[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:12] [INFO] 找到元素:[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:12] [INFO] 开始查找元素：[By.id: addDriver]
+[2018-07-12 10:45:12] [INFO] 找到元素:[By.id: addDriver]
+[2018-07-12 10:45:12] [INFO] 检查登录驾驶员元素完毕
+[2018-07-12 10:45:12] [INFO] 开始输入驾驶员信息
+[2018-07-12 10:45:12] [INFO] 清除元素 [By.id: userName]上的内容
+[2018-07-12 10:45:12] [INFO] 输入：[27谊建] 到 [By.id: userName]
+[2018-07-12 10:45:12] [INFO] 清除元素 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]上的内容
+[2018-07-12 10:45:12] [INFO] 输入：[17899999976] 到 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:12] [INFO] 输入驾驶员信息完毕
+[2018-07-12 10:45:12] [INFO] 点击元素 [By.id: addDriver]
+[2018-07-12 10:45:13] [INFO] 新建搅拌车驾驶员成功
+[2018-07-12 10:45:13] [INFO] 打开测试页面：[http://tcweb.mytongche.com/#/shipDriver]
+[2018-07-12 10:45:15] [INFO] 点击元素 [By.xpath: //*[@id="main"]/div[1]/div[1]/button]
+[2018-07-12 10:45:15] [INFO] 开始检查驾驶员页面元素
+[2018-07-12 10:45:16] [INFO] 开始查找元素：[By.id: userName]
+[2018-07-12 10:45:16] [INFO] 找到元素:[By.id: userName]
+[2018-07-12 10:45:16] [INFO] 开始查找元素：[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:16] [INFO] 找到元素:[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:16] [INFO] 开始查找元素：[By.id: addDriver]
+[2018-07-12 10:45:16] [INFO] 找到元素:[By.id: addDriver]
+[2018-07-12 10:45:16] [INFO] 检查登录驾驶员元素完毕
+[2018-07-12 10:45:16] [INFO] 开始输入驾驶员信息
+[2018-07-12 10:45:16] [INFO] 清除元素 [By.id: userName]上的内容
+[2018-07-12 10:45:16] [INFO] 输入：[28谊建] 到 [By.id: userName]
+[2018-07-12 10:45:16] [INFO] 清除元素 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]上的内容
+[2018-07-12 10:45:16] [INFO] 输入：[17899999977] 到 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:16] [INFO] 输入驾驶员信息完毕
+[2018-07-12 10:45:16] [INFO] 点击元素 [By.id: addDriver]
+[2018-07-12 10:45:17] [INFO] 新建搅拌车驾驶员成功
+[2018-07-12 10:45:17] [INFO] 打开测试页面：[http://tcweb.mytongche.com/#/shipDriver]
+[2018-07-12 10:45:18] [INFO] 点击元素 [By.xpath: //*[@id="main"]/div[1]/div[1]/button]
+[2018-07-12 10:45:18] [INFO] 开始检查驾驶员页面元素
+[2018-07-12 10:45:19] [INFO] 开始查找元素：[By.id: userName]
+[2018-07-12 10:45:19] [INFO] 找到元素:[By.id: userName]
+[2018-07-12 10:45:19] [INFO] 开始查找元素：[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:19] [INFO] 找到元素:[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:19] [INFO] 开始查找元素：[By.id: addDriver]
+[2018-07-12 10:45:19] [INFO] 找到元素:[By.id: addDriver]
+[2018-07-12 10:45:19] [INFO] 检查登录驾驶员元素完毕
+[2018-07-12 10:45:19] [INFO] 开始输入驾驶员信息
+[2018-07-12 10:45:19] [INFO] 清除元素 [By.id: userName]上的内容
+[2018-07-12 10:45:19] [INFO] 输入：[29谊建] 到 [By.id: userName]
+[2018-07-12 10:45:19] [INFO] 清除元素 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]上的内容
+[2018-07-12 10:45:20] [INFO] 输入：[17899999978] 到 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:20] [INFO] 输入驾驶员信息完毕
+[2018-07-12 10:45:20] [INFO] 点击元素 [By.id: addDriver]
+[2018-07-12 10:45:21] [INFO] 新建搅拌车驾驶员成功
+[2018-07-12 10:45:21] [INFO] 打开测试页面：[http://tcweb.mytongche.com/#/shipDriver]
+[2018-07-12 10:45:22] [INFO] 点击元素 [By.xpath: //*[@id="main"]/div[1]/div[1]/button]
+[2018-07-12 10:45:22] [INFO] 开始检查驾驶员页面元素
+[2018-07-12 10:45:23] [INFO] 开始查找元素：[By.id: userName]
+[2018-07-12 10:45:23] [INFO] 找到元素:[By.id: userName]
+[2018-07-12 10:45:23] [INFO] 开始查找元素：[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:23] [INFO] 找到元素:[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:23] [INFO] 开始查找元素：[By.id: addDriver]
+[2018-07-12 10:45:23] [INFO] 找到元素:[By.id: addDriver]
+[2018-07-12 10:45:23] [INFO] 检查登录驾驶员元素完毕
+[2018-07-12 10:45:23] [INFO] 开始输入驾驶员信息
+[2018-07-12 10:45:23] [INFO] 清除元素 [By.id: userName]上的内容
+[2018-07-12 10:45:23] [INFO] 输入：[30谊建] 到 [By.id: userName]
+[2018-07-12 10:45:23] [INFO] 清除元素 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]上的内容
+[2018-07-12 10:45:23] [INFO] 输入：[17899999979] 到 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:23] [INFO] 输入驾驶员信息完毕
+[2018-07-12 10:45:23] [INFO] 点击元素 [By.id: addDriver]
+[2018-07-12 10:45:24] [INFO] 新建搅拌车驾驶员成功
+[2018-07-12 10:45:24] [INFO] 打开测试页面：[http://tcweb.mytongche.com/#/shipDriver]
+[2018-07-12 10:45:26] [INFO] 点击元素 [By.xpath: //*[@id="main"]/div[1]/div[1]/button]
+[2018-07-12 10:45:26] [INFO] 开始检查驾驶员页面元素
+[2018-07-12 10:45:27] [INFO] 开始查找元素：[By.id: userName]
+[2018-07-12 10:45:27] [INFO] 找到元素:[By.id: userName]
+[2018-07-12 10:45:27] [INFO] 开始查找元素：[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:27] [INFO] 找到元素:[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:27] [INFO] 开始查找元素：[By.id: addDriver]
+[2018-07-12 10:45:27] [INFO] 找到元素:[By.id: addDriver]
+[2018-07-12 10:45:27] [INFO] 检查登录驾驶员元素完毕
+[2018-07-12 10:45:27] [INFO] 开始输入驾驶员信息
+[2018-07-12 10:45:27] [INFO] 清除元素 [By.id: userName]上的内容
+[2018-07-12 10:45:27] [INFO] 输入：[31谊建] 到 [By.id: userName]
+[2018-07-12 10:45:27] [INFO] 清除元素 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]上的内容
+[2018-07-12 10:45:27] [INFO] 输入：[17899999980] 到 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:27] [INFO] 输入驾驶员信息完毕
+[2018-07-12 10:45:27] [INFO] 点击元素 [By.id: addDriver]
+[2018-07-12 10:45:28] [INFO] 新建搅拌车驾驶员成功
+[2018-07-12 10:45:28] [INFO] 打开测试页面：[http://tcweb.mytongche.com/#/shipDriver]
+[2018-07-12 10:45:29] [INFO] 点击元素 [By.xpath: //*[@id="main"]/div[1]/div[1]/button]
+[2018-07-12 10:45:29] [INFO] 开始检查驾驶员页面元素
+[2018-07-12 10:45:30] [INFO] 开始查找元素：[By.id: userName]
+[2018-07-12 10:45:30] [INFO] 找到元素:[By.id: userName]
+[2018-07-12 10:45:30] [INFO] 开始查找元素：[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:30] [INFO] 找到元素:[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:30] [INFO] 开始查找元素：[By.id: addDriver]
+[2018-07-12 10:45:30] [INFO] 找到元素:[By.id: addDriver]
+[2018-07-12 10:45:30] [INFO] 检查登录驾驶员元素完毕
+[2018-07-12 10:45:30] [INFO] 开始输入驾驶员信息
+[2018-07-12 10:45:30] [INFO] 清除元素 [By.id: userName]上的内容
+[2018-07-12 10:45:30] [INFO] 输入：[32谊建] 到 [By.id: userName]
+[2018-07-12 10:45:31] [INFO] 清除元素 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]上的内容
+[2018-07-12 10:45:31] [INFO] 输入：[17899999981] 到 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:31] [INFO] 输入驾驶员信息完毕
+[2018-07-12 10:45:31] [INFO] 点击元素 [By.id: addDriver]
+[2018-07-12 10:45:32] [INFO] 新建搅拌车驾驶员成功
+[2018-07-12 10:45:32] [INFO] 打开测试页面：[http://tcweb.mytongche.com/#/shipDriver]
+[2018-07-12 10:45:33] [INFO] 点击元素 [By.xpath: //*[@id="main"]/div[1]/div[1]/button]
+[2018-07-12 10:45:33] [INFO] 开始检查驾驶员页面元素
+[2018-07-12 10:45:34] [INFO] 开始查找元素：[By.id: userName]
+[2018-07-12 10:45:34] [INFO] 找到元素:[By.id: userName]
+[2018-07-12 10:45:34] [INFO] 开始查找元素：[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:34] [INFO] 找到元素:[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:34] [INFO] 开始查找元素：[By.id: addDriver]
+[2018-07-12 10:45:34] [INFO] 找到元素:[By.id: addDriver]
+[2018-07-12 10:45:34] [INFO] 检查登录驾驶员元素完毕
+[2018-07-12 10:45:34] [INFO] 开始输入驾驶员信息
+[2018-07-12 10:45:34] [INFO] 清除元素 [By.id: userName]上的内容
+[2018-07-12 10:45:34] [INFO] 输入：[33谊建] 到 [By.id: userName]
+[2018-07-12 10:45:34] [INFO] 清除元素 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]上的内容
+[2018-07-12 10:45:34] [INFO] 输入：[17899999982] 到 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:34] [INFO] 输入驾驶员信息完毕
+[2018-07-12 10:45:35] [INFO] 点击元素 [By.id: addDriver]
+[2018-07-12 10:45:36] [INFO] 新建搅拌车驾驶员成功
+[2018-07-12 10:45:36] [INFO] 打开测试页面：[http://tcweb.mytongche.com/#/shipDriver]
+[2018-07-12 10:45:37] [INFO] 点击元素 [By.xpath: //*[@id="main"]/div[1]/div[1]/button]
+[2018-07-12 10:45:37] [INFO] 开始检查驾驶员页面元素
+[2018-07-12 10:45:38] [INFO] 开始查找元素：[By.id: userName]
+[2018-07-12 10:45:38] [INFO] 找到元素:[By.id: userName]
+[2018-07-12 10:45:38] [INFO] 开始查找元素：[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:38] [INFO] 找到元素:[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:38] [INFO] 开始查找元素：[By.id: addDriver]
+[2018-07-12 10:45:38] [INFO] 找到元素:[By.id: addDriver]
+[2018-07-12 10:45:38] [INFO] 检查登录驾驶员元素完毕
+[2018-07-12 10:45:38] [INFO] 开始输入驾驶员信息
+[2018-07-12 10:45:38] [INFO] 清除元素 [By.id: userName]上的内容
+[2018-07-12 10:45:38] [INFO] 输入：[34谊建] 到 [By.id: userName]
+[2018-07-12 10:45:38] [INFO] 清除元素 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]上的内容
+[2018-07-12 10:45:38] [INFO] 输入：[17899999983] 到 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:38] [INFO] 输入驾驶员信息完毕
+[2018-07-12 10:45:38] [INFO] 点击元素 [By.id: addDriver]
+[2018-07-12 10:45:39] [INFO] 新建搅拌车驾驶员成功
+[2018-07-12 10:45:39] [INFO] 打开测试页面：[http://tcweb.mytongche.com/#/shipDriver]
+[2018-07-12 10:45:40] [INFO] 点击元素 [By.xpath: //*[@id="main"]/div[1]/div[1]/button]
+[2018-07-12 10:45:40] [INFO] 开始检查驾驶员页面元素
+[2018-07-12 10:45:41] [INFO] 开始查找元素：[By.id: userName]
+[2018-07-12 10:45:41] [INFO] 找到元素:[By.id: userName]
+[2018-07-12 10:45:41] [INFO] 开始查找元素：[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:41] [INFO] 找到元素:[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:41] [INFO] 开始查找元素：[By.id: addDriver]
+[2018-07-12 10:45:41] [INFO] 找到元素:[By.id: addDriver]
+[2018-07-12 10:45:41] [INFO] 检查登录驾驶员元素完毕
+[2018-07-12 10:45:41] [INFO] 开始输入驾驶员信息
+[2018-07-12 10:45:42] [INFO] 清除元素 [By.id: userName]上的内容
+[2018-07-12 10:45:42] [INFO] 输入：[35谊建] 到 [By.id: userName]
+[2018-07-12 10:45:42] [INFO] 清除元素 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]上的内容
+[2018-07-12 10:45:42] [INFO] 输入：[17899999984] 到 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:42] [INFO] 输入驾驶员信息完毕
+[2018-07-12 10:45:42] [INFO] 点击元素 [By.id: addDriver]
+[2018-07-12 10:45:43] [INFO] 新建搅拌车驾驶员成功
+[2018-07-12 10:45:43] [INFO] 打开测试页面：[http://tcweb.mytongche.com/#/shipDriver]
+[2018-07-12 10:45:44] [INFO] 点击元素 [By.xpath: //*[@id="main"]/div[1]/div[1]/button]
+[2018-07-12 10:45:44] [INFO] 开始检查驾驶员页面元素
+[2018-07-12 10:45:45] [INFO] 开始查找元素：[By.id: userName]
+[2018-07-12 10:45:45] [INFO] 找到元素:[By.id: userName]
+[2018-07-12 10:45:45] [INFO] 开始查找元素：[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:45] [INFO] 找到元素:[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:45] [INFO] 开始查找元素：[By.id: addDriver]
+[2018-07-12 10:45:45] [INFO] 找到元素:[By.id: addDriver]
+[2018-07-12 10:45:45] [INFO] 检查登录驾驶员元素完毕
+[2018-07-12 10:45:45] [INFO] 开始输入驾驶员信息
+[2018-07-12 10:45:45] [INFO] 清除元素 [By.id: userName]上的内容
+[2018-07-12 10:45:45] [INFO] 输入：[36谊建] 到 [By.id: userName]
+[2018-07-12 10:45:45] [INFO] 清除元素 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]上的内容
+[2018-07-12 10:45:46] [INFO] 输入：[17899999985] 到 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:46] [INFO] 输入驾驶员信息完毕
+[2018-07-12 10:45:46] [INFO] 点击元素 [By.id: addDriver]
+[2018-07-12 10:45:47] [INFO] 新建搅拌车驾驶员成功
+[2018-07-12 10:45:47] [INFO] 打开测试页面：[http://tcweb.mytongche.com/#/shipDriver]
+[2018-07-12 10:45:48] [INFO] 点击元素 [By.xpath: //*[@id="main"]/div[1]/div[1]/button]
+[2018-07-12 10:45:48] [INFO] 开始检查驾驶员页面元素
+[2018-07-12 10:45:49] [INFO] 开始查找元素：[By.id: userName]
+[2018-07-12 10:45:49] [INFO] 找到元素:[By.id: userName]
+[2018-07-12 10:45:49] [INFO] 开始查找元素：[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:49] [INFO] 找到元素:[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:49] [INFO] 开始查找元素：[By.id: addDriver]
+[2018-07-12 10:45:49] [INFO] 找到元素:[By.id: addDriver]
+[2018-07-12 10:45:49] [INFO] 检查登录驾驶员元素完毕
+[2018-07-12 10:45:49] [INFO] 开始输入驾驶员信息
+[2018-07-12 10:45:49] [INFO] 清除元素 [By.id: userName]上的内容
+[2018-07-12 10:45:49] [INFO] 输入：[37谊建] 到 [By.id: userName]
+[2018-07-12 10:45:49] [INFO] 清除元素 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]上的内容
+[2018-07-12 10:45:49] [INFO] 输入：[17899999986] 到 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:49] [INFO] 输入驾驶员信息完毕
+[2018-07-12 10:45:49] [INFO] 点击元素 [By.id: addDriver]
+[2018-07-12 10:45:50] [INFO] 新建搅拌车驾驶员成功
+[2018-07-12 10:45:50] [INFO] 打开测试页面：[http://tcweb.mytongche.com/#/shipDriver]
+[2018-07-12 10:45:51] [INFO] 点击元素 [By.xpath: //*[@id="main"]/div[1]/div[1]/button]
+[2018-07-12 10:45:51] [INFO] 开始检查驾驶员页面元素
+[2018-07-12 10:45:52] [INFO] 开始查找元素：[By.id: userName]
+[2018-07-12 10:45:52] [INFO] 找到元素:[By.id: userName]
+[2018-07-12 10:45:52] [INFO] 开始查找元素：[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:52] [INFO] 找到元素:[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:52] [INFO] 开始查找元素：[By.id: addDriver]
+[2018-07-12 10:45:53] [INFO] 找到元素:[By.id: addDriver]
+[2018-07-12 10:45:53] [INFO] 检查登录驾驶员元素完毕
+[2018-07-12 10:45:53] [INFO] 开始输入驾驶员信息
+[2018-07-12 10:45:53] [INFO] 清除元素 [By.id: userName]上的内容
+[2018-07-12 10:45:53] [INFO] 输入：[38谊建] 到 [By.id: userName]
+[2018-07-12 10:45:53] [INFO] 清除元素 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]上的内容
+[2018-07-12 10:45:53] [INFO] 输入：[17899999987] 到 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:53] [INFO] 输入驾驶员信息完毕
+[2018-07-12 10:45:53] [INFO] 点击元素 [By.id: addDriver]
+[2018-07-12 10:45:54] [INFO] 新建搅拌车驾驶员成功
+[2018-07-12 10:45:54] [INFO] 打开测试页面：[http://tcweb.mytongche.com/#/shipDriver]
+[2018-07-12 10:45:55] [INFO] 点击元素 [By.xpath: //*[@id="main"]/div[1]/div[1]/button]
+[2018-07-12 10:45:55] [INFO] 开始检查驾驶员页面元素
+[2018-07-12 10:45:56] [INFO] 开始查找元素：[By.id: userName]
+[2018-07-12 10:45:56] [INFO] 找到元素:[By.id: userName]
+[2018-07-12 10:45:56] [INFO] 开始查找元素：[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:56] [INFO] 找到元素:[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:56] [INFO] 开始查找元素：[By.id: addDriver]
+[2018-07-12 10:45:56] [INFO] 找到元素:[By.id: addDriver]
+[2018-07-12 10:45:56] [INFO] 检查登录驾驶员元素完毕
+[2018-07-12 10:45:56] [INFO] 开始输入驾驶员信息
+[2018-07-12 10:45:56] [INFO] 清除元素 [By.id: userName]上的内容
+[2018-07-12 10:45:56] [INFO] 输入：[39谊建] 到 [By.id: userName]
+[2018-07-12 10:45:56] [INFO] 清除元素 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]上的内容
+[2018-07-12 10:45:57] [INFO] 输入：[17899999988] 到 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:45:57] [INFO] 输入驾驶员信息完毕
+[2018-07-12 10:45:57] [INFO] 点击元素 [By.id: addDriver]
+[2018-07-12 10:45:58] [INFO] 新建搅拌车驾驶员成功
+[2018-07-12 10:45:58] [INFO] 打开测试页面：[http://tcweb.mytongche.com/#/shipDriver]
+[2018-07-12 10:45:59] [INFO] 点击元素 [By.xpath: //*[@id="main"]/div[1]/div[1]/button]
+[2018-07-12 10:45:59] [INFO] 开始检查驾驶员页面元素
+[2018-07-12 10:46:00] [INFO] 开始查找元素：[By.id: userName]
+[2018-07-12 10:46:00] [INFO] 找到元素:[By.id: userName]
+[2018-07-12 10:46:00] [INFO] 开始查找元素：[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:46:00] [INFO] 找到元素:[By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:46:00] [INFO] 开始查找元素：[By.id: addDriver]
+[2018-07-12 10:46:00] [INFO] 找到元素:[By.id: addDriver]
+[2018-07-12 10:46:00] [INFO] 检查登录驾驶员元素完毕
+[2018-07-12 10:46:00] [INFO] 开始输入驾驶员信息
+[2018-07-12 10:46:00] [INFO] 清除元素 [By.id: userName]上的内容
+[2018-07-12 10:46:00] [INFO] 输入：[40谊建] 到 [By.id: userName]
+[2018-07-12 10:46:00] [INFO] 清除元素 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]上的内容
+[2018-07-12 10:46:00] [INFO] 输入：[17899999989] 到 [By.xpath: //*[@id="driverDetail"]/div[2]/div/input]
+[2018-07-12 10:46:00] [INFO] 输入驾驶员信息完毕
+[2018-07-12 10:46:01] [INFO] 点击元素 [By.id: addDriver]
+[2018-07-12 10:46:02] [INFO] 新建搅拌车驾驶员成功

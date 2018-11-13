@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_201800703" preserve-order="true">
+	<!-- driver的属性配置文件保存路径 -->
+	<parameter name="driverConfgFilePath" value="config/driver.properties" />
+	<!-- chrome,firefox,ghost和ie不区分大小写 -->
+	<parameter name="browserName" value="chrome" />
+	<!-- 页面元素10秒不出现超时时间 -->
+	<parameter name="timeOut" value="20" />
+	<!-- 定义测试的站点 -->
+	<parameter name="testAdminUrl" value="http://beta.mytongche.com" />
+
+	<!-- 定义测试模块，用test标签包围 -->
+	<test name="TongChe" preserve-order="true" >
+		<classes>
+			<class name="tongche_test.api.php.Site_001_Success_Test">
+				<methods>
+					<!--include name="siteProjectUpdate"></include>
+					<include name="siteUpdate"></include>
+					<include name="siteAdd"></include>
+					<include name="siteList_Mix"></include>
+					<include name="siteList_Rent"></include>
+					<include name="siteList_Driver"></include>
+					<include name="siteList_Delivery"></include>
+					<include name="siteList_NULL"></include-->
+					<include name="siteAdd"></include>
+				</methods>
+				<!-- 发货单位管理员 -->
+				<parameter name="userName" value="13764230001"></parameter>
+				<!-- 租赁单位管理员 -->
+				<parameter name="rentUserName" value="13764230002"></parameter>
+				<!-- 发货单位搅拌车司机1 -->
+				<parameter name="mixDriver" value="17999999920"></parameter>
+				<!-- 发货单位搅拌车司机2 -->
+				<parameter name="mixDriver2" value="17999999925"></parameter>
+				<!-- 发货单位搅拌车司机排队中 -->
+				<parameter name="mixOrderDriver" value="17999999955"></parameter>
+				<!-- 租赁单位搅拌车司机无小票 -->
+				<parameter name="noOrderDriver" value="17999999930"></parameter>
+				<!-- 收货单位管理员 -->
+				<parameter name="receiveUserName" value="17999999906"></parameter>
+				<!-- 新用户 -->
+				<parameter name="newUser" value="17899999802"></parameter>
+				<!-- 下预订单搅拌站管理员账号 -->
+				<parameter name="shangYiUser" value="13764230015"></parameter>
+				<!-- 不存在与系统内账号 -->
+				<parameter name="NullUser" value="19999999999"></parameter>
+			</class>
+		</classes>
+	</test>
+	
+	<listeners>
+		<!-- arrow插件实现用例失败重跑以及生成测试报告 -->
+		<listener class-name="ixijian_main.plugins.arrow.TestResultListener"></listener>
+		<listener class-name="ixijian_main.plugins.arrow.RetryListener"></listener>
+		<listener class-name="ixijian_main.plugins.arrow.PowerEmailableReporter"></listener>
+	</listeners>
+</suite>

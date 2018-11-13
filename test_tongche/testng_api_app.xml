@@ -59,11 +59,12 @@
 					<include name="userLogout"></include>
 					<include name="userUpdateinfo"></include>
 					<include name="addVertical"></include>
-					<include name="siteList"></include>
 					<include name="siteProjectUpdate"></include>
 					<include name="siteUpdate"></include>
-					<include name="siteAdd"></include-->
-					<include name="orderAdd"></include>
+					<include name="siteAdd"></include>
+					<include name="orderAdd"></include-->
+
+					<include name="siteList"></include>
 
 					<!--include name="backendQrforvehicle"></include-->
 				</methods>
@@ -83,6 +84,8 @@
 				<parameter name="receiveUserName" value="17999999906"></parameter>
 				<!-- 新用户 -->
 				<parameter name="newUser" value="17899999802"></parameter>
+				<!-- 下预订单搅拌站管理员账号 -->
+				<parameter name="shangYiUser" value="13764230015"></parameter>
 			</class>
 		</classes>
 	</test>

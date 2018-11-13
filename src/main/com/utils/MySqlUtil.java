@@ -37,8 +37,8 @@ public class MySqlUtil {
             Class.forName("com.mysql.jdbc.Driver");
             logger.info("加载MYSQL驱动成功");
             Thread.sleep(1000);
-            conn = DriverManager.getConnection(TEST_DB_URL,TEST_USER,TEST_PASS);
-//            conn = DriverManager.getConnection(BETA_DB_URL,BETA_USER,BETA_PASS);
+//            conn = DriverManager.getConnection(TEST_DB_URL,TEST_USER,TEST_PASS);
+            conn = DriverManager.getConnection(BETA_DB_URL,BETA_USER,BETA_PASS);
             PreparedStatement stmt = conn.prepareStatement(sql);
             if(sql.contains("SELECT")){
                 ResultSet rs = stmt.executeQuery(sql);

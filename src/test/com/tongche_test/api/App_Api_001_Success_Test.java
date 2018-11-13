@@ -7,6 +7,9 @@ import utils.InterFaceUtil;
 import utils.MySqlUtil;
 import utils.TestUrl;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import static utils.InterFaceUtil.sendPostUrl;
 
 public class App_Api_001_Success_Test extends MySqlUtil{
@@ -565,7 +568,7 @@ public class App_Api_001_Success_Test extends MySqlUtil{
         String userId = getUserId(userName);
         String sign = AppSign(userName);
         JSONObject jsonObject = sendPostUrl(TestUrl.getTongCheReleaseUrl() + "/site/list","urid=" + userId + sign);
-        InterFaceUtil.getInstance().AssertJSONPost(jsonObject,"200","成功");
+        InterFaceUtil.getInstance().AssertJSONPost(jsonObject,"200","获取成功");
     }
 
     //更新工程
@@ -630,37 +633,37 @@ public class App_Api_001_Success_Test extends MySqlUtil{
 
     //新建预订单
     @Test
-    @Parameters({"userName"})
-    public void orderAdd(String userName){
-        userLogin(userName);
-        String sign = AppSign(userName);
-        String deliverCompanyIdSql = "SELECT `companyId` from `user` where tel='"+ userName + "';";
+    @Parameters({"shangYiUser"})
+    public void orderAdd(String shangYiUser){
+        userLogin(shangYiUser);
+        String sign = AppSign(shangYiUser);
+        String deliverCompanyIdSql = "SELECT `companyId` from `user` where tel='"+ shangYiUser + "';";
         String deliverCompanyId = MySqlUtil.getInstance().mySqlCURD(deliverCompanyIdSql);
-        String receiveCompanyIdSql = "SELECT `receiveCompanyId` from `project` where `deliverCompanyId`=(SELECT `companyId` from `user` where tel='13764230015') AND `receiveCompanyId` != 0 ORDER BY `id` DESC LIMIT 1;";
+        String receiveCompanyIdSql = "SELECT `receiveCompanyId` from `project` where `deliverCompanyId`=(SELECT `companyId` from `user` where tel='" + shangYiUser + "') AND `receiveCompanyId` != 0 ORDER BY `id` DESC LIMIT 1;";
         String receiveCompanyId = MySqlUtil.getInstance().mySqlCURD(receiveCompanyIdSql);
         String tpz = "C10";
         String slumpStr = "100±30";
         String pouringMethod = "泵送";
         String pouringPosition = "测试部位";
         String planQuantity = "100";
-        String projectIdSql = "SELECT `receiveCompanyId` from `project` where `deliverCompanyId`=(SELECT `companyId` from `user` where tel='13764230015') AND `receiveCompanyId` != 0 ORDER BY `id` DESC LIMIT 1;";
+        String projectIdSql = "SELECT `receiveCompanyId` from `project` where `deliverCompanyId`=(SELECT `companyId` from `user` where tel='" + shangYiUser + "') AND `receiveCompanyId` != 0 ORDER BY `id` DESC LIMIT 1;";
         String projectId = MySqlUtil.getInstance().mySqlCURD(projectIdSql);
-        String projectAddSql = "";
+        String projectAddSql = "SELECT `projectAdd` from `project` where `deliverCompanyId`=(SELECT `companyId` from `user` where tel='" + shangYiUser + "') and `receiveCompanyId` != 0 order by id desc limit 1;";
         String projectAdd = MySqlUtil.getInstance().mySqlCURD(projectAddSql);
-        String planTimeSql = "";
-        String planTime = MySqlUtil.getInstance().mySqlCURD(planTimeSql);
-        String remarksSql = "";
-        String remarks = MySqlUtil.getInstance().mySqlCURD(remarksSql);
-        String contactNameSql = "";
+        Date date = new Date();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        String planTime = simpleDateFormat.format(date);
+        String remarks = "工程地址：" + projectAdd + "_" + planTime;
+        String contactNameSql = "SELECT `userName` from user where `tel`='"+ shangYiUser +"';";
         String contactName = MySqlUtil.getInstance().mySqlCURD(contactNameSql);
-        String contactTelSql = "";
-        String contactTel = MySqlUtil.getInstance().mySqlCURD(contactTelSql);
+        String contactTel = shangYiUser;
         JSONObject jsonObject = sendPostUrl(TestUrl.getTongCheReleaseUrl() + "/order/add",
                 "deliverCompanyId=" + deliverCompanyId + "&receiveCompanyId=" + receiveCompanyId + "&tpz=" + tpz + "&slumpStr=" + slumpStr +
                         "&pouringMethod=" + pouringMethod + "&pouringPosition=" + pouringPosition + "&planQuantity=" + planQuantity + "&projectId=" + projectId +
                         "&projectAdd=" + projectAdd + "&planTime=" + planTime + "&remarks=" + remarks + "&contactName=" + contactName + "&contactTel=" + contactTel + sign);
-        InterFaceUtil.getInstance().AssertJSONPost(jsonObject,"200","成功");
+        InterFaceUtil.getInstance().AssertJSONPost(jsonObject,"200","下单成功");
     }
+
 
 }
 
